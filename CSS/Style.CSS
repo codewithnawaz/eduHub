@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+
+}
+
+.logo img{
+    width: 150px;
+    padding: 0px 0px;
+}
+
+.navbar{
+/* display: flex; */
+align-items: center;
+justify-content: center;
+/* position: sticky; */
+top: 0;
+cursor: pointer;
+height: 57px;
+}
+
+.nav-list{
+width: 70%;
+    display: flex;
+    align-items: center;
+font-size: 100%;
+}
+
+.nav-list li{
+list-style: none;
+padding: 24px 19px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: black;
+    }
+
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0px 0px;
+}
+/* 
+#Search{
+    padding: 0px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 5px;
+} */
+
+.background{
+    background: url(../img/bg.png);
+background-size: cover;
+background-blend-mode: darken;
+;
+}
+
+.firstSection{
+    height: 92vh;
+  
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 60%;
+    
+}
+
+.firstHalf{
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.secondHlaf{
+    width: 30%;
+    
+}
+
+.secondHalf img{
+    width: 125%;
+    border-radius: 250px;
+    padding: 0px 0px;
+    border: 4px solid white;
+    display: block;
+    margin: auto;
+
+}
+
+.text-big{
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique;
+}
+
+.text-small{
+
+    font-size: 18px;
+}
+
+.btn{
+    padding: 5px 20px;
+    margin: 14px;
+    border: 3px solid white;
+    border-radius: 13px;
+    font-size: 19px;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.btn-sm{
+    font-size: 13px;
+    vertical-align: middle;
+    padding: 0px 2px;
+}
+
+.btn-L{
+border: 2px solid gray;
+cursor: pointer;
+color: black;
+border-radius: 4px;
+    font-size: 13px;
+}
+
+.Section{
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.section-Left{
+    flex-direction: row-reverse;
+    
+}
+
+.paras{
+    padding: 0px 109px;
+    height: auto;
+}
+
+
+.WhyUs{
+    text-align: center;
+    font-size: 42px;
+    font-style: oblique;
+    padding: 10px 0px;
+}
+
+
+.Section img{
+    width: 350px;
+    padding: 10px;
+
+}
+
+
+.box-main2{
+    display: flex;
+    justify-content: center;
+    color: rgb(170, 121, 121);
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    height: 60%;
+    padding: 10px 90px;
+    
+}
+
+.firstHalf2{
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.secondHalf2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.secondHalf2 img{
+    width: 125%;
+    border-radius: 250px;
+    padding: 0px 0px;
+    border: 4px solid white;
+    display: block;
+    margin: auto;
+
+}
+
+#Services{
+    text-align: center;
+    
+}
+
+.section-p1{
+    font-family: cursive;
+    font-size: 18px;
+
+}
+
+
+#Services .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+   flex-wrap: wrap ;
+}
+
+
+#Services .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+  transition: 0.2 ease;
+    position: relative;
+}
+
+#Services .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+
+#Services .pro img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+#Services .pro .des  {
+    text-align: start;
+    padding: 1opx 0;
+}
+
+#Services .pro .des span {
+    color: #606063;
+    font-size: 15px;
+    padding: 2px;
+}
+
+#Services .pro .des h5 {
+    padding-top: 8px;
+    color: #1a1a1a;
+    font-size: 18px;
+}
+
+#Services .pro .des i {
+    font-size: 12px;
+    color: rgb(243,181,25);
+}
+
+#Services .pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#Services .pro .cart{
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     border-radius: 50px;
+     background-color: #e8f6ea;
+     font-weight: 500;
+     color: #088178;
+     border: 1px solid #cce7d0;
+     position: absolute;
+     bottom: 20px;
+     right: 10px;
+}
+
+
+.Contact{
+    background-color: rgb(255, 250, 242);
+    height: 84vh;
+}
+
+.text-center{
+text-align: center;
+padding: 22px 0px;
+}
+.form{
+    margin: auto;
+    max-width: 440px;
+}
+
+.form-input{
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.btn-dark{
+    color: black;
+    border-color: black;
+    padding: 1px 3px;
+    border-radius: 8px
+}
+.text-footer{
+    text-align: center;
+padding: 2px 0px;
+background-color: #cbcbcb;
+}
+
+
+.backgroundSection2 img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 199%;
+    padding: 0px;
+
+}
+
+@media only screen and (max-width: 1101px){
+    .nav-list{
+        flex-direction: column;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 7%;
+    border-radius: 32px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
